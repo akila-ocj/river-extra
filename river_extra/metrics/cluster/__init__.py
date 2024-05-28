@@ -4,6 +4,7 @@ This submodule includes all internal clustering metrics that are updated with on
 its label and the current cluster centers at a time.
 
 """
+from river.metrics import Silhouette
 
 from .base import ClusteringMetric
 from .bic import BIC
